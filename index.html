@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xadrez Lençoense</title>
 
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(to bottom, #000000, #0a0a0a);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 80px 20px;
+      background: radial-gradient(circle, rgba(34,197,94,0.25), transparent 60%);
+    }
+
+    h1 {
+      font-size: 56px;
+      margin: 0;
+      color: #22c55e;
+    }
+
+    p.subtitle {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #cfcfcf;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: #111;
+      border: 1px solid #222;
+      border-radius: 14px;
+      padding: 20px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      border-color: #22c55e;
+      transform: translateY(-4px);
+    }
+
+    footer {
+      padding: 40px;
+      border-top: 1px solid #222;
+      color: #888;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Xadrez Lençoense</h1>
+    <p class="subtitle">
+      Portal oficial com notícias, torneios e atividades da Escola Lençoense de Xadrez.
+    </p>
+  </header>
+
+  <section>
+    <h2>Últimas Notícias</h2>
+    <div class="grid">
+      <div class="card">Resultados recentes de torneios municipais.</div>
+      <div class="card">Equipe campeã dos Jogos Regionais.</div>
+      <div class="card">Novas turmas abertas na escola de xadrez.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Escola de Xadrez</h2>
+    <p>
+      Formação intelectual, desenvolvimento estratégico e incentivo ao esporte da mente
+      para todas as idades em Lençóis Paulista.
+    </p>
+  </section>
+
+  <footer>
+    © 2026 Xadrez Lençoense — Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
